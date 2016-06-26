@@ -3,13 +3,10 @@ body, html {
   height: 100%;
 }
 
-#cover{
+
+.cover{
 width: 100%;
-background-color: #ddd url('edificio-blanco.jpg');
+background-color: #ddd url('img/edificio-blanco.jpg') no-repeat;
 text-align: center;
 display: flex;
-}
-
-#display-2{
-  color: red;
 }
