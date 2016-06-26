@@ -5,8 +5,14 @@ body, html {
 
 
 .cover{
-width: 100%;
-background-color: #ddd url('img/edificio-blanco.jpg') no-repeat;
-text-align: center;
-display: flex;
+  height: 100%;
+  background: #ddd url('img/edificio.jpg') center center no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.cover-caption{
+  width: 100%;
 }
